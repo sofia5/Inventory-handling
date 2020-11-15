@@ -1,0 +1,31 @@
+{
+    "products": [{
+            "id": "1",
+            "type": "item",
+            "name": "apple",
+            "price": 5,
+            "currency": "SEK"
+        },
+        {
+            "id": "2",
+            "type": "item",
+            "name": "banana",
+            "price": 7,
+            "currency": "SEK"
+        },
+        {
+            "id": "3",
+            "type": "item",
+            "name": "orange",
+            "price": 6,
+            "currency": "SEK"
+        },
+        {
+            "id": "4",
+            "type": "item",
+            "name": "mango",
+            "price": 10,
+            "currency": "SEK"
+        }
+    ]
+}

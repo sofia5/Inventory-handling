@@ -1,0 +1,24 @@
+{
+    "productPackages": [{
+            "id": "P1",
+            "type": "package",
+            "name": "green",
+            "products": [
+                { "id": "1", "numberOfProducts": 4 },
+                { "id": "4", "numberOfProducts": 2 }
+            ],
+            "currency": "SEK"
+        },
+        {
+            "id": "P2",
+            "type": "package",
+            "name": "yellow",
+            "products": [
+                { "id": "2", "numberOfProducts": 2 },
+                { "id": "4", "numberOfProducts": 1 }
+            ],
+            "price": 20,
+            "currency": "SEK"
+        }
+    ]
+}
