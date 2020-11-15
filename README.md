@@ -23,6 +23,7 @@ Adjustments made:
 - Automatic purchase is currently ON when starting the program.
 - The program is made for "expert" users, but wouldn't be recommended as a program for "normal" users as it's easy to enter the wrong numbers.
 - The unit tests should be expanded to include more tests.
+- The discounts can be handled better, e.g. giving discounts for specific products instead of all. I just did not implement this, but it could be handled partly by making a package with a lesser price.
 
 **Product ID op1 (chosen):**
 

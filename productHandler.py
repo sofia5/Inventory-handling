@@ -1,12 +1,5 @@
 import math
 
-# productMap = {
-#    1: Product1,
-#    2: Product2,
-# ...n: ProductN
-#   P1: ProductPackage1
-# ...Pn: ProductPackageN
-# }
 productMap = {}
 
 
@@ -27,7 +20,6 @@ class ProductPackage:
         self.identifier = identifier
         self.productType = productType
         self.name = name
-        # products = [{product1, quantity}, {product2, quantity}]
         self.products = products
         self.price = price
         self.currency = currency
@@ -74,7 +66,9 @@ def getProductCost(productID, quantity, discount):
     if discount == None:
         cost = productMap[productID].price * quantity
     else:
+        print(quantity)
         itemsToPay = quantity - math.floor(quantity / discount)
+        print(itemsToPay)
         cost = productMap[productID].price * itemsToPay
     return cost
 
